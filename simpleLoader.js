@@ -97,7 +97,7 @@
       var ti = setInterval(function() {
         var styles = document.styleSheets;
         for(var i = 0; i < styles.length; i ++){
-          // console.log(styles[i].href);
+           console.log(styles[i].href);
           if(styles[i].href &&
             styles[i].href.substr(styles[i].href.indexOf(url), styles[i].href.length) === url){
             clearInterval(ti);
